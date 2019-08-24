@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-def position_taken?(position, index)
+def position_taken?(board, index)
  puts "Please Enter A Position: "
  user_position = gets.chomp
   if position == [user_position]
